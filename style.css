@@ -1,16 +1,16 @@
-body {
+header, footer {
   background: linear-gradient(rgb(249, 220, 224), rgba(244, 193, 226, 0.989), rgb(248, 143, 213));
 }
-
 
 header{
     border-bottom: 1px;
     text-align: center;
     font-family: serif;
+    height: 0 auto;
   }
   
   main{
-    width: 740px;
+    width: 700px;
     margin: 0 auto;
   }
   
@@ -19,10 +19,9 @@ header{
     border: 1px solid black;
     position: fixed;
     right: 0%;
-    bottom: 80px;
+    bottom: 100px;
     text-align: center;
     padding: 40px;
-    
   }
   
   footer{
@@ -31,10 +30,10 @@ header{
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 50px;
+    height: 60px;
     font-family: serif;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
   }
   
   button{
